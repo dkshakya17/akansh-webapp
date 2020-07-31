@@ -1,0 +1,34 @@
+
+$yellow:#f2b81a;
+$primary: #F38481; 
+$secondary:#B6EEFF;
+$blue_bg :#F4FCFF;
+$black:#333333;
+$light-black:#808080;
+$grey:#D5D5D5;
+$white:#fff;
+$red_gradiant:linear-gradient(337.66deg, #F38481 0%, #F23B34 100%);
+$blue_gradiant:linear-gradient(211.61deg, #B6EEFF 0%, #82C5FC 100%);
+/*------color class--------*/
+
+.white{
+    color: $white !important;
+}
+.blue_bg{
+    background: $blue_bg !important;
+}
+.red_bg{
+    background: $primary !important;
+}
+.red{
+    color: $primary !important;
+}
+.blue{
+    color: $secondary !important;
+}
+.red_grad{
+    background: $red_gradiant !important;
+}
+.blue_grad{
+    background: $blue_gradiant !important;
+}

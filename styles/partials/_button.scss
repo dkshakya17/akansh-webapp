@@ -1,0 +1,82 @@
+
+/* Button */
+.btn.focus, .btn:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: 0 solid;
+}
+
+.btn.btn-primary,
+.btn-dark,
+.btn-border,
+.btn-white {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 50px;
+  line-height: 1.33;
+  border-radius: 30px;
+  border: 0;
+  -webkit-transition: color 400ms, background-color 400ms, border-color 400ms;
+  transition: color 400ms, background-color 400ms, border-color 400ms;
+  transition: color 400ms, background-color 400ms, border-color 400ms;
+}
+
+.btn-white.btn-primary {
+  background: #fff;
+  color: #2154cf;
+}
+
+.btn.btn-primary {
+  background: #2154cf;
+  border: 2px solid transparent;
+}
+.btn.btn-dark {
+  background: #242427;
+  border: 2px solid transparent;
+}
+.btn.btn-white {
+  background: #fff;
+  border: 2px solid transparent;
+}
+.btn.btn-white:hover {
+  background-color: #242427;
+  color: #fff;
+}
+
+.btn-border {
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-dark:hover,
+.btn-white.btn-primary:hover {
+  background: #0f2765;
+  color: #fff;
+}
+
+.btn-border:hover {
+  background: #0f2765;
+  border: 2px solid transparent;
+  color: #fff;
+}
+
+.general-btn {
+  clear: both;
+  margin-top: 60px;
+}
+
+.intro-content .btn-border {
+  margin-right: 15px;
+}

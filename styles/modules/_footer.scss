@@ -1,0 +1,94 @@
+.main_footer {
+  background-position: top;
+  background-size: cover;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  .link_list {
+    display: inline-block;
+    width: 100%;
+    padding: 60px 0;
+    @include xs{
+      padding: 10px 0;
+    }
+    .cmpny_info {
+      padding-right: 30px;
+      @include xs{
+        text-align: center;
+      }
+      img {
+        max-width: 180px;
+       @include xs{
+        margin: 0 auto;
+       }
+      }
+      
+    }
+    .footmenu {
+      list-style: none;
+      padding: 10px 0;
+      li {
+        padding: 5px 0;
+        @include xs{
+          text-align: center;
+        }
+        a{
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: normal;
+          line-height: 250%;
+          color: $black;
+          opacity: 0.8;
+          @extend %justify-start;
+          img{
+            line-height: 250%;
+            padding-right: 10px;
+            min-width: 25px;
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+    h3 {
+      @include xs{
+        text-align: center;
+      }
+      font-size: $pix-20;
+      font-weight: 600;
+      padding-bottom: 0;
+      margin: 10px 0;
+      color: $black;
+      opacity: 0.8;
+    }
+  }
+  
+
+  .bootom_footer {
+    border-top: 1px solid $grey;
+    padding-top: 10px;
+    min-height: 84px;
+    @extend %justify-center;
+    width: 100%;
+    .bottom_nav{
+      float: right;
+      @extend %justify-center;
+      margin: 0;
+      li{
+        margin-left: 10px;
+        a{
+          padding-right:10px;
+          border-right: 1px solid $grey;
+        }
+        &.social_links{
+          float: right;
+          border: none;
+          a{
+           border-right:none;
+           padding:10px !important;
+          }
+        }
+      }
+    }
+  }
+
+
+}
