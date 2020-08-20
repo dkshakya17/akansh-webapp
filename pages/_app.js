@@ -2,7 +2,11 @@ import React from 'react'
 import App from 'next/app'
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
+import "../styles/animate.css";
+import "../styles/font-awesome.min.css";
+import "../styles/icon-font.css";
 import "../styles/app.scss";
+
 
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for
